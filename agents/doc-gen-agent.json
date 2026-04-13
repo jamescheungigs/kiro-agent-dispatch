@@ -1,0 +1,10 @@
+{
+  "name": "doc-gen-agent",
+  "description": "doc-gen-agent",
+  "prompt": null,
+  "tools": [
+    "@builtin"
+  ],
+  "includeMcpJson": true,
+  "model": null
+}

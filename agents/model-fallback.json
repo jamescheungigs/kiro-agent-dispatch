@@ -1,0 +1,8 @@
+{
+  "models": [
+    "anthropic.claude-haiku-4-0-v1:0",
+    "anthropic.claude-sonnet-4-6-v1:0",
+    "anthropic.claude-opus-4-6-v1:0"
+  ],
+  "updated": "2026-03-25T09:19:51Z"
+}

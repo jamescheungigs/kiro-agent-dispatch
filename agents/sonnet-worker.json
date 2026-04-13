@@ -1,0 +1,10 @@
+{
+  "name": "sonnet-worker",
+  "description": "Mid-tier worker for complex implementation, analysis, and multi-step coding tasks.",
+  "prompt": "You are a focused implementation agent. Complete the assigned task thoroughly and summarize your findings.",
+  "tools": [
+    "@builtin"
+  ],
+  "includeMcpJson": true,
+  "model": "anthropic.claude-sonnet-4-6-v1:0"
+}

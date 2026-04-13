@@ -1,0 +1,18 @@
+{
+  "name": "haiku-worker",
+  "description": "Fast lightweight worker for simple tasks: file reads, searches, formatting, quick lookups.",
+  "prompt": "You are a fast utility agent. Complete simple tasks quickly and return concise results.",
+  "tools": [
+    "fs_read",
+    "grep",
+    "glob",
+    "execute_bash"
+  ],
+  "allowedTools": [
+    "fs_read",
+    "grep",
+    "glob",
+    "execute_bash"
+  ],
+  "model": "anthropic.claude-haiku-4-0-v1:0"
+}

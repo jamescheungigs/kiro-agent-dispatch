@@ -1,0 +1,17 @@
+# Kiro internal state
+.DS_Store
+.cli_bash_history
+argv.json
+extensions/
+powers/
+
+# Symlinks to ~/.cursor (tracked in cursor-agent-skill-collection)
+docs
+plans
+prompts
+skills
+settings/mcp.json
+
+# Logs and temp files
+agents/sync-models.log
+agents/test-workflow.sh

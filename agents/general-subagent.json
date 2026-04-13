@@ -1,0 +1,10 @@
+{
+  "name": "general-subagent",
+  "description": "general-subagent",
+  "prompt": null,
+  "tools": [
+    "@builtin"
+  ],
+  "includeMcpJson": true,
+  "model": null
+}
