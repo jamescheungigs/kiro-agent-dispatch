@@ -21,12 +21,14 @@ patch "$AGENTS_DIR/lead.json"          "$OPUS"
 patch "$AGENTS_DIR/sonnet-worker.json" "$SONNET"
 patch "$AGENTS_DIR/haiku-worker.json"  "$HAIKU"
 
-# Update fallback too
+# Update fallback (stored outside agents dir to avoid parse errors)
+CONFIG_DIR="$HOME/.kiro/config"
+mkdir -p "$CONFIG_DIR"
 python3 -c "
 import json
 models = [m for m in ['$HAIKU','$SONNET','$OPUS'] if m]
 if models:
-    with open('$AGENTS_DIR/model-fallback.json', 'w') as f:
+    with open('$CONFIG_DIR/model-fallback.json', 'w') as f:
         json.dump({'models': models, 'updated': '$(date -u +%Y-%m-%dT%H:%M:%SZ)'}, f, indent=2)
     print('updated model-fallback.json')
 "
