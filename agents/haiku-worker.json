@@ -13,6 +13,5 @@
     "grep",
     "glob",
     "execute_bash"
-  ],
-  "model": "anthropic.claude-haiku-4-0-v1:0"
+  ]
 }

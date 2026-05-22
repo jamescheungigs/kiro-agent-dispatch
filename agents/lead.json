@@ -6,7 +6,6 @@
     "@builtin"
   ],
   "includeMcpJson": true,
-  "model": "anthropic.claude-opus-4-6-v1:0",
   "toolsSettings": {
     "subagent": {
       "availableAgents": [

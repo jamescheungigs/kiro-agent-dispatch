@@ -5,6 +5,5 @@
   "tools": [
     "@builtin"
   ],
-  "includeMcpJson": true,
-  "model": "anthropic.claude-sonnet-4-6-v1:0"
+  "includeMcpJson": true
 }
